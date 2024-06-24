@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'CSS/about.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <h2 class="pro">Portfolio</h2>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'skills' %}">Skills</a></li>
+          <li><a href="{% url 'project' %}">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="head">About Me</h1>
+      <div class="about">
+        <h2>Professional Summary</h2>
+        <p>
+          I am a proficient web developer with extensive experience in building
+          dynamic and robust web applications. My expertise lies in Python,
+          Django, HTML, CSS, and the Django REST Framework, which enables me to
+          create scalable, secure, and efficient web solutions. I am passionate
+          about leveraging technology to solve real-world problems and am
+          committed to continuous learning and professional development.
+        </p>
+      </div>
+      <div class="about">
+        <h2>Techenical Skill</h2>
+        <p>
+          Python: Proficient in using Python for backend development, scripting,
+          and automation. <br />
+          HTML: Skilled in creating structured and semantic markup for web
+          pages. <br />
+          CSS: Experienced in styling web pages to create visually appealing and
+          responsive designs.
+        </p>
+      </div>
+      <div class="about">
+        <h2>Frameworks and Libraries</h2>
+        <p>
+          Django: Extensive experience in using Django to build robust web
+          applications, including handling URL routing, views, models, and
+          templates. <br />
+          Django REST Framework: Proficient in developing RESTful APIs using
+          Django REST Framework, enabling efficient data exchange between client
+          and server.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

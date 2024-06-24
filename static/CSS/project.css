@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.pro {
+  color: crimson;
+  margin-right: 450px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  list-style: armenian;
+}
+nav {
+  background-color: black;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 80px;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 57px;
+  padding: 22px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+}
+nav ul li a:hover {
+  color: crimson;
+}
+.head{
+    color: crimson;
+    text-align: center;
+}
+.project1{
+  background-color: crimson;
+  border: 2px solid crimson;
+  color: white;
+  width: 600px;
+  margin-left: 25%;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.project1:hover{
+  background-color: black;
+  color: crimson;
+  p{
+    color: crimson;
+  }
+  .icons ul li a{
+    color:crimson;
+  }
+  .icons ul li a:hover {
+    color: white;
+  }
+}
+.project1 p {
+  font-size: 16px; 
+  line-height: 1.5; 
+  color: white;
+  padding: 10px; 
+}
+.icons ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.icons ul li a {
+  font-size: 20px;
+  color: black;
+  margin-right: 13px;
+  transition: color 0.3s;
+}
+

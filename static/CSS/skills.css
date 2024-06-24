@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.pro {
+  color: crimson;
+  margin-right: 450px;
+  list-style: armenian;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 80px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 57px;
+  padding: 22px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: crimson;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  color: crimson;
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  background-color: #4e080f;
+  height: 300px;
+  width: 500px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  border-radius: 12px;
+}
+
+.skil {
+  color: crimson;
+  background-color: black;
+  height: 120px;
+  width: 130px;
+  border-radius: 7px;
+}
+
+.skil:hover {
+  background-color: crimson;
+}
+
+.skil img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}

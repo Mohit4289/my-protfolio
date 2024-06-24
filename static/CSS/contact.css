@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.pro {
+  color: crimson;
+  margin-right: 450px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  list-style: armenian;
+}
+nav {
+  background-color: black;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 80px;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 57px;
+  padding: 22px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+}
+nav ul li a:hover {
+  color: crimson;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    color: crimson;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+.intro h1 {
+    margin-left: 10%;
+    color: crimson;
+}
+
+.intro img {
+    border-radius: 17px;
+    margin-right: 20px;
+}
+
+.info {
+    width: 40%;
+    padding: 20px;
+    border-left: 2px solid crimson;
+}
+
+.info ul {
+    padding: 0;
+}
+
+.info ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.info ul li img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.info ul li:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 17px;
+}
